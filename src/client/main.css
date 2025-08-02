@@ -1,0 +1,88 @@
+:root {
+  --bg-color: #14151a;
+  --text-color: #fbf0df;
+  --link-color: #75c3ff;
+  --shadow-color: #000000;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #fbf0df;
+    --text-color: #14151a;
+    --link-color: #75c3ff;
+    --shadow-color: #cfcbbc;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  padding: 1rem;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+}
+
+button {
+  color: var(--link-color);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.25rem 0.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-shadow: 0.5rem 0.5rem var(--shadow-color);
+}
+
+p {
+  line-height: 1.5;
+  max-width: 30rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  column-gap: 3rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.gap {
+  column-gap: 3rem;
+}
+
+.count {
+  text-align: center;
+  width: 3rem;
+}

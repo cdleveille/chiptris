@@ -1,7 +1,7 @@
 {
-  "name": "fresh-bun",
+  "name": "chiptris",
   "version": "1.0.0",
-  "description": "👋",
+  "description": "",
   "author": "Chris Leveille",
   "license": "MIT",
   "type": "module",

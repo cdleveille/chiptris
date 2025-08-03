@@ -1,7 +1,7 @@
 import { author, description, license, version } from "package.json";
 
 export const AppInfo = {
-  name: "hello from bun!",
+  name: "chiptris",
   version,
   description,
   author: {
@@ -9,7 +9,7 @@ export const AppInfo = {
     url: "https://cdleveille.net",
   },
   license,
-  url: "https://fresh-bun.fly.dev",
+  url: "https://chiptris.fly.dev",
   themeColor: "#14151a",
 };
 
